@@ -1,0 +1,165 @@
+body{
+ padding: 0;
+ margin: 0;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+ background: #ffffff;
+ display: block;
+ margin: auto;
+ text-align: center;
+ position: inherit;
+}
+.sendomey{
+ text-align: center;
+ background: #ffffff;
+ width: 75%;
+ display: block;
+ margin: auto;
+ box-shadow: 0 2px 4px 3px #f8f8f8;
+}
+@media screen and (max-width: 768px) {
+ .sendomey{
+  width: 98%;
+  padding: 0;
+ }
+}
+.sendomey img{
+ width: 150px;
+ height: 150px;
+ border-radius: 50%;
+}
+.sendomey p{
+ color: #464646;
+ text-align: center;
+ line-height: 24px;
+ font-size: 15px;
+ margin-top: -5px;
+ margin-bottom: -7px;
+ }
+ .sendomey h5{
+  margin-bottom: -12px;
+  font-size: 18px;
+ }
+.drogbalisage{
+ display: block;
+ position: relative;
+ margin: auto;
+ text-align: center;
+ left: -20px;
+ padding: 5px;
+
+}
+.drogbalisage img{
+ width: 80px;
+ height: 80px;
+ border: 2px solid #ebebeb;
+ padding: 2px;
+ object-fit: cover;
+ object-position: center;
+ animation: nimer ease-out infinite 120s;
+}
+@keyframes nimer {
+ 0%{
+  border: 2px solid #555353;
+ }
+ 50%{
+  border: 2px dashed #a79d948f;
+ }
+ 100%{
+  transform: rotate(360deg);
+ }
+}
+.drogbalisage ul{
+ display: block;
+ position: relative;
+ text-align: center;
+ left: -15px;
+}
+.drogbalisage ul li{
+ list-style-type: none;
+ display: inline-block;
+ margin: 20px 20px 20px 20px;
+ box-shadow: 0 2px 4px 3px #e4e4e4;
+ padding: 10px;
+}
+@media screen and (max-width: 768px) {
+ .drogbalisage ul li{
+ margin: 0.6rem;
+ box-shadow: 0 2px 4px 3px #e6e6e6;
+ padding: 10px;
+ border-radius: 10px;
+ position: relative;
+ text-align: center;
+ right: -15px;
+ }
+}
+.drogbalisage li h6{
+ margin-top: 1px;
+ color: #000000;
+ font-size: 14px;
+ margin-bottom: 10px;
+}
+.drogbalisage li span{
+ display: block;
+ padding: 3px;
+ font-size: 2px;
+ color: #ffffff;
+}
+.drogbalisage li button{
+ padding: 10px;
+ transition: 0.1s;
+ background: #0799dd;
+ border: 1px solid #0799dd;
+ border-radius: 10px;
+ color: #ffffff;
+ position: relative;
+ font-size: 16px;
+ cursor: pointer;
+}
+.drogbalisage li button a{
+ text-decoration: none;
+ color: #ffffff;
+
+}
+
+
+.pow p{
+color: #2e2e2e;
+line-height: 23px;
+font-size: 17px;
+}
+.pow a{
+    text-decoration: none;
+    color: #e74b03;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

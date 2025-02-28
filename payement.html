@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="shortcut icon" href="image/logo projet.png" type="image/x-icon">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+ <link rel="stylesheet" href="payement.css">
+ <title>PaymentHelp</title>
+</head>
+<body>
+
+ <header>
+
+  <div class="sendomey">
+   <img src="image/logo projet.png">
+   <p> You can choose the contribution method you prefer. Ask for another unavailable means by contacting us <a href="contate.html">here.</a></p>
+<h5>CONTRIBUTE BY CHOOSING AN ADDRESS :</h5>
+   
+   <div class="drogbalisage">
+    <ul>
+      <li><img src="image/Bitcoin.svg.png"><span id="cpnCode">bc1q46qvazslahuysgtgwuv39gqjvhvkrk4lqt29tf</span>
+        <h6>BITCOIN</h6><button id="cpnBtn">Obtain the address</button></li>
+
+
+   <li><img src="image/1_3H7d3h9S1sh43yNU-jXA7Q.png"><span id="cpnCode1">shadedavenue93@walletofsatoshi.com</span>
+    <h6>LIGHTNING BTC - LN</h6><button id="cpnBtn1">Obtain the address</button></li>
+
+
+    <li><img src="image/TRC20.png"><span id="cpnCode3">TRvzybTe9uUbK9UH8pYfDaAKUzy1ukdsGs</span>
+      <h6>USDT TRC20</h6><button id="cpnBtn3">Obtain the address</button></li>
+
+
+          <li><img src="image/SOLANA.jpg"><span id="cpnCode2">0x35447e346f8fa7617aeaa5f1c922cdc4581a6b62</span>
+            <h6>SOLANA BNB (BEP20)</h6><button id="cpnBtn2">Obtain the address</button></li>
+
+
+        <li><img src="image/logo projet.png">
+          <h6>PROPOSE ANOTHER CONTRIBUTION</h6><button id="cpnBtn4"><a href="mailto:flexiblehelps@gmail.com">Impose another proposal</a> </button></li>
+
+    </ul>
+   </div>
+
+   <hr>
+   <div class="pow">
+    <h1>PROOF OF WORK (P.O.W)</h1>
+    <p>At Flexibles Helps, transparency is our priority. Thanks to the generous contributions of our donors, we are able to take concrete action to help those in need.
+      We are committed to total transparency regarding the use of donations received for our Flexibles Helps humanitarian project. 
+      Every contribution is used to accomplish various missions and help people in need.
+ 
+      <br><br>
+      To ensure the trust of our donors, we regularly update our page <a href="https://primal.net/p/npub1atc7w8gu2h75cvsg7g732tend7dhs0s5h8zerr7v9akthk6sw5kqwfvadh">Primal</a> with proof of work done. 
+      You can also find these updates on our account <a href="https://x.com/FlexibleHelps_s">Twitter</a> ainsi que sur notre page <a href="https://geyser.fund/project/helpwithfoodbtcharity">Geyser</a> where we share visual evidence of the actions carried out thanks to your support. 
+      Every contribution counts, and we're committed to showing what we can achieve with your help. 🙏💙</p>
+   </div>
+   <br><br><br><br>
+
+
+
+  </div>
+
+ </header>
+
+<script>
+ var cpnBtn = document.getElementById("cpnBtn");
+ var cpnCode = document.getElementById("cpnCode");
+
+cpnBtn.onclick = function(){
+ navigator.clipboard.writeText(cpnCode.innerHTML);
+ cpnBtn.innerHTML = "COPIED !";
+ setTimeout(function(){
+  cpnBtn.innerHTML = "Recopy";
+ }, 3000);
+}
+
+//-----------------1----------------------//
+var cpnBtn1 = document.getElementById("cpnBtn1");
+ var cpnCode1 = document.getElementById("cpnCode1");
+
+cpnBtn1.onclick = function(){
+ navigator.clipboard.writeText(cpnCode1.innerHTML);
+ cpnBtn1.innerHTML = "COPIED !";
+ setTimeout(function(){
+  cpnBtn1.innerHTML = "Recopy";
+ }, 3000);
+}
+
+//-----------------2----------------------//
+var cpnBtn2 = document.getElementById("cpnBtn2");
+ var cpnCode2 = document.getElementById("cpnCode2");
+
+cpnBtn2.onclick = function(){
+ navigator.clipboard.writeText(cpnCode2.innerHTML);
+ cpnBtn2.innerHTML = "COPIED !";
+ setTimeout(function(){
+  cpnBtn2.innerHTML = "Recopy";
+ }, 3000);
+}
+
+//-----------------3----------------------//
+var cpnBtn3 = document.getElementById("cpnBtn3");
+ var cpnCode3 = document.getElementById("cpnCode3");
+
+cpnBtn3.onclick = function(){
+ navigator.clipboard.writeText(cpnCode3.innerHTML);
+ cpnBtn3.innerHTML = "COPIED !";
+ setTimeout(function(){
+  cpnBtn3.innerHTML = "Recopy";
+ }, 3000);
+}
+
+//-----------------4----------------------//
+var cpnBtn4 = document.getElementById("cpnBtn4");
+ var cpnCode4 = document.getElementById("cpnCode4");
+
+cpnBtn4.onclick = function(){
+ navigator.clipboard.writeText(cpnCode4.innerHTML);
+ cpnBtn4.innerHTML = "COPIED !";
+ setTimeout(function(){
+  cpnBtn4.innerHTML = "Recopy";
+ }, 3000);
+}
+
+</script>
+
+</body>
+
+</html>
+
